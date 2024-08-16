@@ -1,3 +1,9 @@
+"""
+Inheritance: is-a relationship.
+1. CreditCard is a PaymentBase
+2. PayPal is PaymentBase
+"""
+
 class PaymentBase:
     def __init__(self, amount:int):
         self.amount:int = amount
