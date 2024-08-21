@@ -6,7 +6,10 @@ authors = ["Subrata Mondal <subratasubha2@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
+torch = "2.0.0"
+torchvision = "0.15.1"
+d2l = "1.0.3"
 
 
 [build-system]
